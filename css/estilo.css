@@ -64,6 +64,10 @@ header {
 
 /* APLICO HOVERS*/
 
+.infH :hover{
+    color: #C11574;
+}
+
 .hHijo :hover{
     color: #C11574;
 }
