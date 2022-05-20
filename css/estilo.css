@@ -199,6 +199,15 @@ li {
     text-align: center;
     font-weight: 600;
     padding-right: 10px;
+    color: black;
+}
+
+.fuente { @import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
+    font-family: 'Mina', sans-serif;
+    font-weight: bold;
+    color: black;
+
+
 }
 
 /* FOOTER APLICANDO FLEX Y ESTILOS COMO COLOR Y ALTURA*/
