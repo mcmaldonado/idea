@@ -3,6 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Mina&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mina&display=swap");
+
+
+
 body {
   background-color: white;
   font-family: 'Mina', sans-serif; }
@@ -27,7 +30,16 @@ body {
     height: 100px;
     box-sizing: border-box;
     bottom: 0;
-    justify-content: space-between; }
+    justify-content: space-between;
+     
+  }
+  .iconos{
+    margin-top: 15px;
+  }
+
+  .iconos :hover{
+    color: #C11574;
+  }
 
 body {
   background-color: white;
@@ -180,6 +192,47 @@ body {
     box-shadow: 10px 10px 10px; }
   body .pasos p {
     margin-top: 10px; }
+
+    .botonComprar{
+      background-color: #F6D6E8;
+      align-items: center;
+      font-size: 25px;
+    }
+    .botones{
+      align-items: center;
+      padding-left: 900px;
+    }
+
+    .botones :hover{
+      color: white;
+      background-color: #C11574;
+    }
+
+    .cA {
+      text-align: center;
+      color: #FDB022;
+      font-weight: bold;
+    }
+
+    .pF{
+      text-align: center;
+      color: #FEC84B;
+      font-weight: bold;
+    }
+
+    p{
+      padding: 30px;
+    }
+
+    .cC{
+      text-align: center;
+      color: #C11574;
+      font-weight: bold;
+    }
+
+    .eS {
+      text-align: center;
+    }
 
 /* MEDIA C PARA RESPONSIVE*/
 @media screen and (max-width: 900px) {

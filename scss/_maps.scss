@@ -1,0 +1,19 @@
+/*maps*/
+$mapRedes:(instagram:pink, pinterest:red);
+
+@each $redes, $color in $mapRedes {
+    .#{$redes} {
+        color: $color
+    }
+}
+
+$estilo:(color:black,tamFuente:30px);
+
+.informacion {
+    color: map-get($estilo,color);
+}
+
+.fuente {
+    font-size: map-get($estilo,tamFuente);
+}
+
