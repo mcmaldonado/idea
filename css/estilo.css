@@ -8,38 +8,44 @@
 
 body {
   background-color: white;
-  font-family: 'Mina', sans-serif; }
-  body header {
-    background-color: #FEC84B;
-    align-items: center;
-    min-height: 60px;
-    padding: 10px;
-    width: 100%;
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns: 1fr; }
+  font-family: 'Mina', sans-serif;
+}
+
+body header {
+  background-color: #FEC84B;
+  align-items: center;
+  min-height: 60px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr;
+}
 
 body {
   background-color: white;
   font-family: 'Mina', sans-serif;
-  /* FOOTER APLICANDO FLEX Y ESTILOS COMO COLOR Y ALTURA*/ }
-  body footer {
-    background-color: #FEC84B;
-    width: 100%;
-    display: flex;
-    height: 100px;
-    box-sizing: border-box;
-    bottom: 0;
-    justify-content: space-between;
-     
-  }
-  .iconos{
-    margin-top: 15px;
-  }
+  /* FOOTER APLICANDO FLEX Y ESTILOS COMO COLOR Y ALTURA*/
+}
 
-  .iconos :hover{
-    color: #C11574;
-  }
+body footer {
+  background-color: #FEC84B;
+  width: 100%;
+  display: flex;
+  height: 100px;
+  box-sizing: border-box;
+  bottom: 0;
+  justify-content: space-between;
+
+}
+
+.iconos {
+  margin-top: 15px;
+}
+
+.iconos :hover {
+  color: #C11574;
+}
 
 body {
   background-color: white;
@@ -48,290 +54,383 @@ body {
   /* APLICO HOVERS*/
   /* CARRUSEL DE INICIO APLICANDO GRID Y RESPONSIVE*/
   /* IMAGENES EN COMPRAR ARTE CON ESTILOS Y GRILLA*/
-  /* FORMULARIOS CON FLEX Y ALINEANDO ITEMS*/ }
-  body h1 {
-    font-family: 'Pacifico', cursive;
-    color: #C11574; }
-  body h1 {
-    padding: 20px; }
-  body .hHijo {
-    color: #ffffff;
-    text-align: right;
-    font-weight: 600;
-    padding-right: 20px; }
-  body .inf :hover {
-    color: #C11574; }
-  body .hHijo :hover {
-    color: #C11574; }
-  body .tapB :hover {
-    color: #FDB022; }
-  body li {
-    display: inline-block;
-    color: #ffffff; }
-  body .tercerPaso {
-    position: relative;
-    left: 350px; }
-  body .segundoPaso {
-    position: relative;
-    left: 240px;
-    bottom: 17px; }
-  body .primerPaso {
-    position: relative;
-    left: 135px; }
-  body .pasoDos {
-    text-align: center; }
-  body .pasoUno {
-    text-align: center; }
-  body .pasoTres {
-    text-align: center; }
-  body .carrusel {
-    top: 0;
+  /* FORMULARIOS CON FLEX Y ALINEANDO ITEMS*/
+}
+
+body h1 {
+  font-family: 'Pacifico', cursive;
+  color: #C11574;
+}
+
+body h1 {
+  padding: 20px;
+}
+
+body .hHijo {
+  color: #ffffff;
+  text-align: right;
+  font-weight: 600;
+  padding-right: 20px;
+}
+
+body .inf :hover {
+  color: #C11574;
+}
+
+body .hHijo :hover {
+  color: #C11574;
+}
+
+body .tapB :hover {
+  color: #FDB022;
+}
+
+body li {
+  display: inline-block;
+  color: #ffffff;
+}
+
+body .tercerPaso {
+  position: relative;
+  left: 350px;
+}
+
+body .segundoPaso {
+  position: relative;
+  left: 240px;
+  bottom: 17px;
+}
+
+body .primerPaso {
+  position: relative;
+  left: 135px;
+}
+
+body .pasoDos {
+  text-align: center;
+}
+
+body .pasoUno {
+  text-align: center;
+}
+
+body .pasoTres {
+  text-align: center;
+}
+
+body .carrusel {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+body .iE {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 95%;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+body .iD {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 95%;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+body .ext {
+  text-align: center;
+}
+
+body .dorm {
+  text-align: center;
+}
+
+body .idea {
+  padding-left: 15px;
+}
+
+body .oes {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+body .navegador {
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  align-items: center;
+  min-height: 5px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body .tapB {
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  padding-right: 10px;
+  color: black;
+}
+
+body .fuente {
+  font-family: 'Mina', sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+body .informacion {
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+body .formulario {
+  background-color: #FDB022;
+  flex-direction: row;
+  margin: 1.5rem;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+body .formulario :focus {
+  height: 25px;
+}
+
+body .formulario :hover {
+  color: #FDB022;
+}
+
+body a {
+  text-decoration: none;
+  color: black;
+  margin: 8px;
+  text-align: center;
+}
+
+body .stock {
+  text-align: center;
+}
+
+body .prueba {
+  background-color: #F6D6E8;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body .pasos {
+  background-color: #C11574;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 10px 10px 10px;
+}
+
+body .pasos p {
+  margin-top: 10px;
+}
+
+.botonComprar {
+  background-color: #F6D6E8;
+  align-items: center;
+  font-size: 25px;
+}
+
+.botones {
+  align-items: center;
+  padding-left: 900px;
+}
+
+.botones :hover {
+  color: white;
+  background-color: #C11574;
+}
+
+.cA {
+  text-align: center;
+  color: #FDB022;
+  font-weight: bold;
+}
+
+.pF {
+  text-align: center;
+  color: #FEC84B;
+  font-weight: bold;
+}
+
+p {
+  padding: 30px;
+}
+
+.cC {
+  text-align: center;
+  color: #C11574;
+  font-weight: bold;
+}
+
+.eS {
+  text-align: center;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #F6D6E8, #C11574);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 100%;
+}
+
+.tituloB {
+  color: #FDB022;
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.textoB {
+  color: black;
+  font-size: 30px;
+  font-weight: 400;
+
+}
+
+.imagenBanner img {
+  width: 800px;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 100%;
+}
+
+.burbuja {
+  border-radius: 50%;
+  background: #fff;
+  opacity: .3;
+  position: absolute;
+  bottom: 0;
+
+
+  animation: burbujas 3s linear infinite;
+}
+
+/* animacion de burbujas*/
+@keyframes burbujas {
+  0% {
     bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    max-width: 90%;
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center; }
-  body .iE {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    max-width: 95%;
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center; }
-  body .iD {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    max-width: 95%;
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center; }
-  body .ext {
-    text-align: center; }
-  body .dorm {
-    text-align: center; }
-  body .idea {
-    padding-left: 15px; }
-  body .oes {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    max-width: 90%;
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center; }
-  body .navegador {
-    color: black;
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center;
-    align-items: center;
-    min-height: 5px;
-    padding: 10px;
-    width: 100%;
-    box-sizing: border-box; }
-  body .tapB {
-    text-decoration: none;
-    text-align: center;
-    font-weight: 600;
-    padding-right: 10px;
-    color: black; }
-  body .fuente {
-    font-family: 'Mina', sans-serif;
-    font-weight: bold;
-    color: black; }
-  body .informacion {
-    color: black;
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center; }
-  body .formulario {
-    background-color: #FDB022;
-    flex-direction: row;
-    margin: 1.5rem;
-    margin-bottom: 40px;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    border-radius: 10px; }
-  body .formulario :focus {
-    height: 25px; }
-  body .formulario :hover {
-    color: #FDB022; }
-  body a {
-    text-decoration: none;
-    color: black;
-    margin: 8px;
-    text-align: center; }
-  body .stock {
-    text-align: center; }
-  body .prueba {
-    background-color: #F6D6E8;
-    display: flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    justify-content: space-around;
-    align-items: center; }
-  body .pasos {
-    background-color: #C11574;
-    color: #ffffff;
-    font-weight: bold;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 10px 10px 10px; }
-  body .pasos p {
-    margin-top: 10px; }
+    opacity: 0;
+  }
 
-    .botonComprar{
-      background-color: #F6D6E8;
-      align-items: center;
-      font-size: 25px;
-    }
-    .botones{
-      align-items: center;
-      padding-left: 900px;
-    }
+  50% {
+    opacity: .4;
+  }
 
-    .botones :hover{
-      color: white;
-      background-color: #C11574;
-    }
+  100% {
+    bottom: 100vh;
+    opacity: 0;
+  }
+}
 
-    .cA {
-      text-align: center;
-      color: #FDB022;
-      font-weight: bold;
-    }
+.burbuja:nth-child(1) {
+  width: 80px;
+  height: 80px;
+  left: 5%;
+  animation-duration: 3s;
+  animation-delay: 3s;
+}
 
-    .pF{
-      text-align: center;
-      color: #FEC84B;
-      font-weight: bold;
-    }
+.burbuja:nth-child(2) {
+  width: 100px;
+  height: 100px;
+  left: 35%;
+  animation-duration: 3s;
+  animation-delay: 5s;
+}
 
-    p{
-      padding: 30px;
-    }
+.burbuja:nth-child(3) {
+  width: 20px;
+  height: 20px;
+  left: 15%;
+  animation-duration: 1.5s;
+  animation-delay: 7s;
+}
 
-    .cC{
-      text-align: center;
-      color: #C11574;
-      font-weight: bold;
-    }
+.burbuja:nth-child(4) {
+  width: 50px;
+  height: 50px;
+  left: 90%;
+  animation-duration: 6s;
+  animation-delay: 3s;
+}
 
-    .eS {
-      text-align: center;
-    }
+.burbuja:nth-child(5) {
+  width: 70px;
+  height: 70px;
+  left: 65%;
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
 
-    .banner{
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(to right, #F6D6E8, #C11574 );
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      position: relative;
-    }
-
-    .tituloB{
-      color: #FDB022;
-      font-size: 60px;
-      font-weight: 800;
-      margin-bottom: 20px;
-    }
-
-    .textoB{
-      color:black;
-      font-size: 30px;
-      font-weight: 400;
-
-    }
-
-    .imagenBanner img{
-      width: 600px;
-      display: block;
-    }
-
-    .burbuja{
-      border-radius: 50%;
-      background: #fff;
-      opacity: .3;
-      position: absolute;
-      bottom: 0;
-    
-
-      animation: burbujas 3s linear infinite;
-    }
-
-    @keyframes burbujas{
-      0%{
-        bottom: 0;
-        opacity: 0;
-      }
-      50%{
-        opacity: .4;
-      }
-      100%{
-        bottom: 100vh;
-        opacity: 0;
-      }
-    }
-
-    .burbuja:nth-child(1){
-      width: 80px;
-      height: 80px;
-      left: 5%;
-      animation-duration: 3s;
-      animation-delay: 3s;
-    }
-    .burbuja:nth-child(2){
-      width: 100px;
-      height: 100px;
-      left: 35%;
-      animation-duration: 3s;
-      animation-delay: 5s;
-    }
-    .burbuja:nth-child(3){
-      width: 20px;
-      height: 20px;
-      left: 15%;
-      animation-duration: 1.5s;
-      animation-delay: 7s;
-    }
-    .burbuja:nth-child(4){
-      width: 50px;
-      height: 50px;
-      left: 90%;
-      animation-duration: 6s;
-      animation-delay: 3s;
-    }
-    .burbuja:nth-child(5){
-      width: 70px;
-      height: 70px;
-      left: 65%;
-      animation-duration: 3s;
-      animation-delay: 1s;
-    }
-    
 
 /* MEDIA C PARA RESPONSIVE*/
 @media screen and (max-width: 900px) {
   .navegador {
-    display: none; }
+    display: none;
+  }
+
   header {
-    flex-direction: column; }
+    flex-direction: column;
+  }
+
   .hHijo {
-    padding: 10px 0px; }
+    padding: 10px 0px;
+  }
+
   .prueba {
-    flex-wrap: wrap; } }
+    flex-wrap: wrap;
+  }
+}
