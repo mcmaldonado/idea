@@ -36,13 +36,19 @@ body footer {
   box-sizing: border-box;
   bottom: 0;
   justify-content: space-between;
+  margin-top: auto;
 
 
 }
 
-.firma{
-  color: #ffffff;
-  margin-top: 30px;
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%
 }
 
 .iconos{
@@ -57,6 +63,13 @@ body footer {
   color: #C11574;
 }
 
+.whatsappIcono{
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  z-index: 1;
+  width: 60px;
+}
 body {
   background-color: white;
   font-family: 'Mina', sans-serif;
@@ -65,6 +78,10 @@ body {
   /* CARRUSEL DE INICIO APLICANDO GRID Y RESPONSIVE*/
   /* IMAGENES EN COMPRAR ARTE CON ESTILOS Y GRILLA*/
   /* FORMULARIOS CON FLEX Y ALINEANDO ITEMS*/
+}
+
+.menuH{
+  width: 50px;
 }
 
 body h1 {
